@@ -12,4 +12,4 @@ npm start
 ```
 打开index.html<br>
 
-或者点击DEMO
+或者点击[DEMO](https://kirinoi.github.io/kreader/)
