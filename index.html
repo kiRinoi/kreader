@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>kreader</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="title nav-item">kreader</h1>
+        <div class="nav-item right">
+            <label class="input-file btn large-btn"><span>添加书本</span>
+                <input type="file" class="input-file">
+            </label>
+            <label class="setmark btn large-btn">插入书签</label>
+            <label class="loadmark btn large-btn">读取书签</label>
+            <a class="setting btn small-btn"></a>
+            <ul class="list bookmarklist"></ul>
+            <div class="list readersetting">
+                <dl class="color">
+                    <dt>阅读颜色</dt>
+                    <dd>亚麻</dd>
+                    <dd>咖啡</dd>
+                    <dd>淡绿</dd>
+                    <dd>蓝灰</dd>
+                    <dd>深黑</dd>
+                </dl>
+                <dl class="font">
+                    <dt>文本字体</dt>
+                    <dd>雅黑</dd>
+                    <dd>宋体</dd>
+                    <dd>楷体</dd>
+                </dl>
+                <dl class="size">
+                    <dt>字体大小</dt>
+                    <dd>A-</dd>
+                    <dd>16</dd>
+                    <dd>A+</dd>
+                </dl>
+                <dl class="option">
+                    <dt>删除个人设置</dt>
+                </dl>
+            </div>
+        </div>
+    </nav>
+    <section class="content">
+        <pre class="column"></pre>
+    </section>
+</body>
+<script src="./src/bundle.js"></script>
+
+</html>

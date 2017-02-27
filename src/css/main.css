@@ -1,0 +1,152 @@
+body {
+    background-color: #f8f1da;
+    user-select: none;
+}
+
+.input-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.input-file span {
+    color: #888;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.input-file input {
+    font-size: 25px;
+    opacity: 0;
+}
+
+.input-file:hover span {
+    color: #333;
+}
+
+.input-file:hover {
+    border-color: #333;
+}
+
+.setting {
+    background: url('../img/setting.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+}
+
+.setting:hover {
+    background: url('../img/setting2.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.readersetting {
+    position: absolute;
+    top: 57px;
+    right: 5px;
+    width: 500px;
+    text-align: left;
+    display: none;
+    padding: 20px 20px;
+    background: url('../img/bg-yama-out.png');
+}
+
+nav {
+    min-width: 480px;
+    position: relative;
+}
+
+.content {
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.column {
+    line-height: 40px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    padding: 50px 0;
+    margin: 0;
+    width: 700px;
+    column-width: 700px;
+    column-gap: 100px;
+    position: relative;
+    font-family: '宋体';
+}
+
+.readersetting dd {
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+    border: 1px solid #888;
+    position: relative;
+    margin: 10px 5px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.readersetting dt {
+    margin-right: 15px;
+}
+
+.color dd:nth-child(2) {
+    background: #faf9f3;
+}
+
+.color dd:nth-child(3) {
+    background: #f8f1da;
+}
+
+.color dd:nth-child(4) {
+    background: #e8f6f7;
+}
+
+.color dd:nth-child(5) {
+    background: #e9e9e9;
+}
+
+.color dd:nth-child(6) {
+    background: #161819;
+    color: #888;
+}
+.font dd:nth-child(3) {
+    font-family: '黑体';
+}
+
+.font dd:nth-child(3) {
+    font-family: '宋体';
+}
+
+.font dd:nth-child(4) {
+    font-family: '楷体';
+}
+
+.size dd:nth-child(3) {
+    border: none;
+}
+.bookmarklist {
+    list-style: none;
+    position: absolute;
+    top: 57px;
+    right: 5px;
+    text-align: left;
+    display: none;
+    padding: 20px 20px;
+    background: url('../img/bg-yama-out.png');
+}
+.bookmarklist li {cursor: pointer;}
+.option dt {
+    border: 1px solid #888;
+    margin: 10px 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
